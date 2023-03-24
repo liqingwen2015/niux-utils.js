@@ -1,9 +1,16 @@
 {
   "name": "@niux/utils",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "author": "liqingwen",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/liqingwen2015/niux-utils.js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/liqingwen2015/niux-utils.js/issues"
+  },
   "scripts": {
     "test": "cross-env NODE_ENV=test nyc mocha",
     "lint": "eslint src config test",
